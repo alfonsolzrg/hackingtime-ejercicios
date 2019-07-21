@@ -26,6 +26,8 @@ Actualizando codigo:
 
 -> Guardar los cambios que esten en el area de staging -> `git commit`
 
+ `git commit -m // git commit` y escribir un mensaje en el editor de textos que abre
+
  `git commit -a // git add . && git commit`
 
  `git commit -am "Este es mi cambio" // git add . && git commit -m "Este es mi cambio"`
@@ -34,9 +36,11 @@ Actualizando codigo:
 
 -> Subir al repositorio remoto -> `git push origin <branch_name>`
 
+-> Ver el historial de cambios -> `git log`
+
 -> Eliminar el commit local y dejar todo en el area de staging -> `git reset HEAD~ --soft`
 
 -> Modificar, eliminar o reordenar commits locales -> `git rebase -i HEAD~<numero de commits hacia atras>`
 
-Commit (Remoto)
+## Commit (Remoto)
 -> Cuando tu commit local tiene cambios que la rama remota no -> `git push origin <branch_name> --force`
