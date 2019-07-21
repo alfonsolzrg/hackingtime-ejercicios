@@ -38,5 +38,5 @@ Actualizando codigo:
 
 -> Modificar, eliminar o reordenar commits locales -> `git rebase -i HEAD~<numero de commits hacia atras>`
 
-Commit (Remoto)
+## Commit (Remoto)
 -> Cuando tu commit local tiene cambios que la rama remota no -> `git push origin <branch_name> --force`
