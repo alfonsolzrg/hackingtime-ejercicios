@@ -18,6 +18,8 @@ Actualizando codigo:
 
 ## Area de trabajo
 
+-> Si el cambio todavia no esta en el area de staging, puedo utilizar `git checkout <file_name>` para descartarlo.
+
 -> Staging: `git add [<file>|.]`
 
 ## Area de staging
@@ -45,4 +47,9 @@ Actualizando codigo:
 ## Commit (Remoto)
 -> Cuando tu commit local tiene cambios que la rama remota no -> `git push origin <branch_name> --force`
 
--- git otro log 
+## Trabajando con ramas
+
+- Ver mis ramas locales: `git branch`
+- Crear una rama: `git branch <nombre rama>`
+- Moverse a otra rama: `git checkout <nombre rama>`
+- Shortcut: `git checkout -b <nombre rama>`
