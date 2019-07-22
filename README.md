@@ -55,4 +55,4 @@ Actualizando codigo:
 - Shortcut: `git checkout -b <nombre rama>`
 
 - Traer cambios remotos: `git fetch origin <nombre rama>` && `git merge origin/nombre_rama nombre_rama2`
-- `git pull origin <nombre rama>` 
+- Shortcut: `git pull origin <nombre rama>` 
