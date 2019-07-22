@@ -44,3 +44,5 @@ Actualizando codigo:
 
 ## Commit (Remoto)
 -> Cuando tu commit local tiene cambios que la rama remota no -> `git push origin <branch_name> --force`
+
+-- git otro log 
