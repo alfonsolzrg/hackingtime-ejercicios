@@ -53,3 +53,6 @@ Actualizando codigo:
 - Crear una rama: `git branch <nombre rama>`
 - Moverse a otra rama: `git checkout <nombre rama>`
 - Shortcut: `git checkout -b <nombre rama>`
+
+- Traer cambios remotos: `git fetch origin <nombre rama>` && `git merge origin/nombre_rama nombre_rama2`
+- Shortcut: `git pull origin <nombre rama>` 
