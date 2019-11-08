@@ -54,30 +54,42 @@ class LinkedList():
     new_node = Node(data=data, next=None)
     tmp.next = new_node
 
-  # def addNodeBetweenTwoNodes(left, right, data):
-  #   pass
-
-  # def deleteNode(data):
-  #   pass
-
 ##Tarea colaboration : D
 
 def deleteNode(data):
-  NodeToDelete = getNode(data)
+  ##First node to delete
   tmp = self.root
-  if tmp == NodeToDelete
+  if tmp.data == data:
     self.root = tmp.next
+  ##Each other node
     while tmp.next is not None:
-      if tmp.next == NodeToDelete:
-        tmp.next = NodeToDelete.next
+      prevNode = tmp
+      tmp = tmp.next
+      if tmp.data == data:
+        prevNode.next = tmp.next
     return None
 ​
 ​
   def addNodeBetweenTwoNodes(left, right, data):
-    rightNode=getNode(right)
-    new_node= Node(data=data, next=rightNode.next)
-    leftNode = getNode(left)
-    leftNode.next = new_node
+
+    tmp = self.root
+    while tmp.next is not None:
+      if tmp.data == left:
+        nextNode = tmp.next
+        if nextNode.data == right: 
+          nodeBetween.data = data
+          nodeBetween.next = nextNode
+          tmp.next = nodeBetween
+          return tmp
+    return None
+
+
+    
+
+    
+
+
+    
 
 
 
